@@ -26,6 +26,6 @@ yarn dev
 
 ## Deploy on Vercel
 
-this app is deployed on this url   [WEATHER APP](https://weather-zeleri.vercel.com) 
+this app is deployed on this url   [WEATHER APP](https://weather-zeleri.vercel.app) 
 
  
