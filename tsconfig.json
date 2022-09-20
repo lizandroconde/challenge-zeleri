@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths":{
+      "@services":["./src/services/index.ts"],
+      "@screens":["./src/components/screens/index.ts"],
+      "@organisms":["./src/components/organisms/index.ts"],
+      "@molecules":["./src/components/molecules/index.ts"],
+      "@layouts":["./src/components/layouts/index.ts"],
+      "@helpers":["./src/helpers/index.ts"],
+      "@interfaces":["./src/interfaces/index.ts"],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/organisms/header/index.tsz", "src/components/molecules/search-box/index.tsz"],
+  "exclude": ["node_modules"]
+}
