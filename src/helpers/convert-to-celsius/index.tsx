@@ -1,0 +1,1 @@
+export const convertTemperatureToCelsius = (kelvin:number) => (kelvin - 273.15).toFixed(1);
